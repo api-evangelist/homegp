@@ -1,7 +1,13 @@
 aid: homegp
 name: HomeGP
-description: HomeGP is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: HomeGP is a Malaysian on-demand house-call healthcare platform, founded in 2015 and headquartered
+  in Kuala Lumpur, that connects patients with a network of over 300 vetted healthcare practitioners who
+  visit them at home. Services include general practitioner consultations, homecare nursing, licensed
+  physiotherapy, blood and urine testing, medical concierge, wound dressing, and private and live-in
+  caregivers. Bookings are placed through WhatsApp with confirmation typically within ten minutes, operating
+  Monday to Saturday 8am-10pm. HomeGP positions itself as a marketplace connecting individuals to independent
+  professionals rather than a healthcare provider itself, and is backed by 500 Global (500 Southeast Asia),
+  8capita, and IncuVest.
 url: https://raw.githubusercontent.com/api-evangelist/homegp/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,32 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static1.squarespace.com/static/604b38302ff4d4040b3e5bdd/t/604b3cf4d64df043c18120b8/1615543543456/Logo-198x30.png?format=1500w
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Healthcare
+- Home Care
+- House Calls
+- Nursing
+- Physiotherapy
+- Caregivers
+- Telehealth
+- Malaysia
+- Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/homegp-domain-security.yml
 - type: Website
   url: https://homegp.asia
+- type: Pricing
+  url: https://www.homegp.asia/pricing
+- type: Support
+  url: https://www.homegp.asia/contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
