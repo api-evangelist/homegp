@@ -27,7 +27,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://static1.squarespace.com/static/604b38302ff4d4040b3e5bdd/t/604b3cf4d64df043c18120b8/1615543543456/Logo-198x30.png?format=1500w
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
